@@ -1,11 +1,11 @@
 sudo: required
-dist: bionic
+dist: xenial
 language: go
 go:
-  - master
+#  - master
   - 1.14.x
-  - 1.13.x
-
+#  - 1.13.x
+arch: ppc64le
 cache:
   directories:
     - $HOME/.cache/go-build
